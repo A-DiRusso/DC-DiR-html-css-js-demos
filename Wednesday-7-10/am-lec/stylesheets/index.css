@@ -1,0 +1,132 @@
+/* CSS */
+html {
+box-sizing: border-box;
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+}
+
+body {
+    height: 100vh;
+}
+
+.flex-start {
+    border: 10px solid black;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    height: 70%;
+    width: 98%;
+}
+
+.flex-start-box {
+    border: 10px solid red;
+    height: 68%;
+    width: 27%;
+}
+
+.flex-start-model {
+    /* margin-left: auto; */
+    text-align: center;
+}
+
+.flex-end {
+    border: 10px solid black;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    height: 70%;
+    width: 98%;
+}
+
+.flex-end-box {
+    border: 10px solid red;
+    height: 68%;
+    width: 27%;
+}
+
+.flex-end-model {
+    /* margin-left: auto; */
+    text-align: center;
+}
+
+.center {
+    border: 10px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70%;
+    width: 98%;
+}
+
+.center-box {
+    border: 10px solid red;
+    height: 68%;
+    width: 27%;
+}
+
+.center-model {
+    /* margin-left: auto; */
+    text-align: center;
+}
+
+.space-between {
+    border: 10px solid black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 70%;
+    width: 98%;
+}
+
+.space-between-box {
+    border: 10px solid red;
+    height: 68%;
+    width: 27%;
+}
+
+.space-between-model {
+    /* margin-left: auto; */
+    text-align: center;
+}
+
+.space-around {
+    border: 10px solid black;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 70%;
+    width: 98%;
+}
+
+.space-around-box {
+    border: 10px solid red;
+    height: 68%;
+    width: 27%;
+}
+
+.space-around-model {
+    /* margin-left: auto; */
+    text-align: center;
+}
+
+.space-even {
+    border: 10px solid black;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 70%;
+    width: 98%;
+}
+
+.space-even-box {
+    border: 10px solid red;
+    height: 68%;
+    width: 27%;
+}
+
+.space-even-model {
+    /* margin-left: auto; */
+    text-align: center;
+}
